@@ -1,0 +1,19 @@
+{
+  "name": "backbone-component",
+  "version": "0.1.0",
+  "description": "Extensions to Backbone Views that facilitate the use of basic components",
+  "main": "dist/component.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abradley2/backbone-component.git"
+  },
+  "author": "Tony Bradley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abradley2/backbone-component/issues"
+  },
+  "homepage": "https://github.com/abradley2/backbone-component#readme"
+}
