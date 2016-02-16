@@ -2,9 +2,10 @@
   "name": "backbone-component",
   "version": "0.1.0",
   "description": "Extensions to Backbone Views that facilitate the use of basic components",
-  "main": "index.js",
+  "main": "lib/backbone-component.js",
   "scripts": {
-    "test": "karma start"
+    "test": "karma start",
+    "build": "browserify -e lib/backbone-component.js -s backbone-component -o dist/backbone-component.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,19 @@
   },
   "homepage": "https://github.com/abradley2/backbone-component#readme",
   "devDependencies": {
-    "browserify": "^13.0.0"
+    "backbone": "^1.2.3",
+    "browserify": "^13.0.0",
+    "chai": "^3.5.0",
+    "jquery": "^2.2.0",
+    "karma": "^0.13.21",
+    "karma-browserify": "^5.0.1",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-mocha": "^0.2.2",
+    "mocha": "^2.4.5",
+    "mustache": "^2.2.1",
+    "stringify": "^4.0.1",
+    "underscore": "^1.8.3",
+    "watchify": "^3.7.0"
   },
   "peerDependencies": {
     "backbone": "1.x",
